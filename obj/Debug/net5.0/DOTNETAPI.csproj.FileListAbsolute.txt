@@ -22,8 +22,16 @@ C:\Users\michael.mascarenhas\PRATICA\DOTNETAPI\obj\Debug\net5.0\staticwebassets\
 C:\Users\michael.mascarenhas\PRATICA\DOTNETAPI\obj\Debug\net5.0\staticwebassets\DOTNETAPI.StaticWebAssets.xml
 C:\Users\michael.mascarenhas\PRATICA\DOTNETAPI\obj\Debug\net5.0\scopedcss\bundle\DOTNETAPI.styles.css
 C:\Users\michael.mascarenhas\PRATICA\DOTNETAPI\obj\Debug\net5.0\DOTNETAPI.RazorTargetAssemblyInfo.cache
-C:\Users\michael.mascarenhas\PRATICA\DOTNETAPI\obj\Debug\net5.0\DOTNETAPI.csproj.CopyComplete
 C:\Users\michael.mascarenhas\PRATICA\DOTNETAPI\obj\Debug\net5.0\DOTNETAPI.dll
 C:\Users\michael.mascarenhas\PRATICA\DOTNETAPI\obj\Debug\net5.0\ref\DOTNETAPI.dll
 C:\Users\michael.mascarenhas\PRATICA\DOTNETAPI\obj\Debug\net5.0\DOTNETAPI.pdb
 C:\Users\michael.mascarenhas\PRATICA\DOTNETAPI\obj\Debug\net5.0\DOTNETAPI.genruntimeconfig.cache
+C:\Users\michael.mascarenhas\PRATICA\DOTNETAPI\bin\Debug\net5.0\Humanizer.dll
+C:\Users\michael.mascarenhas\PRATICA\DOTNETAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\michael.mascarenhas\PRATICA\DOTNETAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\michael.mascarenhas\PRATICA\DOTNETAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\michael.mascarenhas\PRATICA\DOTNETAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\michael.mascarenhas\PRATICA\DOTNETAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\michael.mascarenhas\PRATICA\DOTNETAPI\bin\Debug\net5.0\MySqlConnector.dll
+C:\Users\michael.mascarenhas\PRATICA\DOTNETAPI\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\michael.mascarenhas\PRATICA\DOTNETAPI\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll

@@ -5,7 +5,7 @@ using DOTNETAPI.Models;
 // import do enity framework
 using Microsoft.EntityFrameworkCore;
 
-namespace DOTNETAPI.data
+namespace DOTNETAPI.Data
 {
     public class DataContext : DbContext // DataContext herda a class que pertence ao enityFramework
     {

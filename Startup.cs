@@ -11,6 +11,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using DOTNETAPI.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace DOTNETAPI
 {
@@ -28,6 +30,13 @@ namespace DOTNETAPI
         {
 
             services.AddControllers();
+
+            // Início conexão com o banco de dados   
+            string stringDeConexao = Configuration.GetConnectionString("conexaoMySQL");
+
+            services.AddDbContext<DataContext>(opt => opt.UseMySql(stringDeConexao, ServerVersion.AutoDetect(stringDeConexao)));
+            // Término da conexão com o banco de dados
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "DOTNETAPI", Version = "v1" });
