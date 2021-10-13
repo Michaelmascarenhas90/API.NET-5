@@ -33,7 +33,6 @@ namespace DOTNETAPI
 
             // Início conexão com o banco de dados   
             string stringDeConexao = Configuration.GetConnectionString("conexaoMySQL");
-
             services.AddDbContext<DataContext>(opt => opt.UseMySql(stringDeConexao, ServerVersion.AutoDetect(stringDeConexao)));
             // Término da conexão com o banco de dados
 

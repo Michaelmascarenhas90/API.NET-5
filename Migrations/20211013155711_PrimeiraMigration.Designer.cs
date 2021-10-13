@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DOTNETAPI.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20211013150300_PrimeiraMigration")]
+    [Migration("20211013155711_PrimeiraMigration")]
     partial class PrimeiraMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

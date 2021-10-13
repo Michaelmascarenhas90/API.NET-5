@@ -20,7 +20,5 @@ namespace DOTNETAPI.Models
         public int CdProtheus { get; set; }
 
         public string Email { get; set; }
-
-
     }
 }
