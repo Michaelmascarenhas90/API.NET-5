@@ -16,13 +16,13 @@ namespace DOTNETAPI.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
-                    CodUser = table.Column<int>(type: "int", nullable: false),
+                    CodUser = table.Column<int>(type: "longtext", nullable: false),
                     Nome = table.Column<string>(type: "longtext", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     Senha = table.Column<string>(type: "longtext", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    FunctionUser = table.Column<int>(type: "int", nullable: false),
-                    CdProtheus = table.Column<int>(type: "int", nullable: false),
+                    FunctionUser = table.Column<int>(type: "longtext", nullable: false),
+                    CdProtheus = table.Column<int>(type: "longtext", nullable: false),
                     Email = table.Column<string>(type: "longtext", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4")
                 },

@@ -24,16 +24,16 @@ namespace DOTNETAPI.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<int>("CdProtheus")
+                    b.Property<string>("CdProtheus")
                         .HasColumnType("longtext");
 
-                    b.Property<int>("CodUser")
+                    b.Property<string>("CodUser")
                         .HasColumnType("longtext");
 
                     b.Property<string>("Email")
                         .HasColumnType("longtext");
 
-                    b.Property<int>("FunctionUser")
+                    b.Property<string>("FunctionUser")
                         .HasColumnType("longtext");
 
                     b.Property<string>("Nome")

@@ -17,6 +17,13 @@ namespace DOTNETAPI.Controllers
             this.dc = context;
         }
 
+        [HttpGet("api")]
+        public async Task<ActionResult> listar()
+        {
+            var dados = await dc.user.ToListAsync();
+            return Ok(dados);
+        }
+
         [HttpPost("api")]
         public async Task<ActionResult> cadastrar([FromBody] Users p)
         {
@@ -26,12 +33,6 @@ namespace DOTNETAPI.Controllers
             return Created("Objeto user", p);
         }
 
-        [HttpGet("api")]
-        public async Task<ActionResult> listar()
-        {
-            var dados = await dc.user.ToListAsync();
-            return Ok(dados);
-        }
 
         [HttpGet("oi")]
         public string oi()
