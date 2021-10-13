@@ -23,16 +23,16 @@ namespace DOTNETAPI.Migrations
                         .HasColumnType("int");
 
                     b.Property<int>("CdProtheus")
-                        .HasColumnType("int");
+                        .HasColumnType("longtext");
 
                     b.Property<int>("CodUser")
-                        .HasColumnType("int");
+                        .HasColumnType("longtext");
 
                     b.Property<string>("Email")
                         .HasColumnType("longtext");
 
                     b.Property<int>("FunctionUser")
-                        .HasColumnType("int");
+                        .HasColumnType("longtext");
 
                     b.Property<string>("Nome")
                         .HasColumnType("longtext");

@@ -18,12 +18,19 @@ namespace DOTNETAPI.Controllers
         }
 
         [HttpPost("api")]
-        public async Task<ActionResult> cadastrar([FromBody] Users u)
+        public async Task<ActionResult> cadastrar([FromBody] Users p)
         {
-            dc.user.Add(u);
+            dc.user.Add(p);
             await dc.SaveChangesAsync();
 
-            return Created("Usuário cadastrado", u);
+            return Created("Objeto user", p);
+        }
+
+        [HttpGet("api")]
+        public async Task<ActionResult> listar()
+        {
+            var dados = await dc.user.ToListAsync();
+            return Ok(dados);
         }
 
         [HttpGet("oi")]

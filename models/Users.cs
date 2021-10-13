@@ -9,15 +9,15 @@ namespace DOTNETAPI.Models
         [Key]
         public int Id { get; set; }
 
-        public int CodUser { get; set; }
+        public string CodUser { get; set; }
 
         public string Nome { get; set; }
 
         public string Senha { get; set; }
 
-        public int FunctionUser { get; set; }
+        public string FunctionUser { get; set; }
 
-        public int CdProtheus { get; set; }
+        public string CdProtheus { get; set; }
 
         public string Email { get; set; }
     }
