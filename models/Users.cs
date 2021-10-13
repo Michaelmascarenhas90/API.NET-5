@@ -2,7 +2,7 @@ using System;
 using System.Net.Mime;
 using System.ComponentModel.DataAnnotations;
 
-namespace DOTNETAPI.models
+namespace DOTNETAPI.Models
 {
     public class Users
     {
