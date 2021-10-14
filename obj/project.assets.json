@@ -978,11 +978,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\michael.mascarenhas\\PRATICA\\api\\api.csproj",
+      "projectUniqueName": "C:\\Users\\michael.mascarenhas\\PRATICA\\DOTNETAPI\\api.csproj",
       "projectName": "api",
-      "projectPath": "C:\\Users\\michael.mascarenhas\\PRATICA\\api\\api.csproj",
+      "projectPath": "C:\\Users\\michael.mascarenhas\\PRATICA\\DOTNETAPI\\api.csproj",
       "packagesPath": "C:\\Users\\michael.mascarenhas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\michael.mascarenhas\\PRATICA\\api\\obj\\",
+      "outputPath": "C:\\Users\\michael.mascarenhas\\PRATICA\\DOTNETAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\michael.mascarenhas\\AppData\\Roaming\\NuGet\\NuGet.Config"

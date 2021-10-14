@@ -34,6 +34,37 @@ namespace api.Controllers
             return Ok(dados);
         }
 
+        [HttpGet("api/{id}")]
+        public Pessoa filtrar(int id)
+        {
+            Pessoa p = dc.pessoa.Find(id);
+            return p;
+        }
+
+        [HttpPut("api")]
+        public async Task<ActionResult> editar([FromBody] Pessoa p)
+        {
+            dc.pessoa.Update(p);
+            await dc.SaveChangesAsync();
+            return Ok(p);
+        }
+
+        [HttpDelete("api/{id}")]
+        public async Task<ActionResult> deletar(int id)
+        {
+            Pessoa p = filtrar(id);
+            if (p == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                dc.pessoa.Remove(p);
+                await dc.SaveChangesAsync();
+                return Ok();
+            }
+        }
+
         // metodo get na rota "/oi" - vai retornar o valor explicito no return
         [HttpGet("oi")]
         public string oi()
