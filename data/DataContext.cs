@@ -1,23 +1,13 @@
-// mostra onde estão os modelos que serão usados, 
-// para executar as açoes em Db
-using DOTNETAPI.Models;
-
-// import do enity framework
+using api.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace DOTNETAPI.Data
+namespace api.Data
 {
-    public class DataContext : DbContext // DataContext herda a class que pertence ao enityFramework
+    public class DataContext : DbContext
     {
-        // contrutor do dataContext(recebe o parametro do DbContext <especifica a class criada para db>) : recebe a heraça de options
         public DataContext(DbContextOptions<DataContext> options) : base(options)
         { }
 
-        // configura qual model recebe as funções do enityFramework
-        // para cada modelo tera um public DbSet<arquivo do model> apelido { get, set}
-        public DbSet<Users> user { get; set; }
-
+        public DbSet<Pessoa> pessoa { get; set; }
     }
 }
-
-// com isso podemos manusear o sql sem escrever comandos SQL

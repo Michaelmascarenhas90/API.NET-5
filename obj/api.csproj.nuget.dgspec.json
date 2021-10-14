@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\michael.mascarenhas\\PRATICA\\DOTNETAPI\\DOTNETAPI.csproj": {}
+    "C:\\Users\\michael.mascarenhas\\PRATICA\\api\\api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\michael.mascarenhas\\PRATICA\\DOTNETAPI\\DOTNETAPI.csproj": {
+    "C:\\Users\\michael.mascarenhas\\PRATICA\\api\\api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\michael.mascarenhas\\PRATICA\\DOTNETAPI\\DOTNETAPI.csproj",
-        "projectName": "DOTNETAPI",
-        "projectPath": "C:\\Users\\michael.mascarenhas\\PRATICA\\DOTNETAPI\\DOTNETAPI.csproj",
+        "projectUniqueName": "C:\\Users\\michael.mascarenhas\\PRATICA\\api\\api.csproj",
+        "projectName": "api",
+        "projectPath": "C:\\Users\\michael.mascarenhas\\PRATICA\\api\\api.csproj",
         "packagesPath": "C:\\Users\\michael.mascarenhas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\michael.mascarenhas\\PRATICA\\DOTNETAPI\\obj\\",
+        "outputPath": "C:\\Users\\michael.mascarenhas\\PRATICA\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\michael.mascarenhas\\AppData\\Roaming\\NuGet\\NuGet.Config"

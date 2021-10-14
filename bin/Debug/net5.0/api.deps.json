@@ -31,7 +31,7 @@
   },
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "DOTNETAPI/1.0.0": {
+      "api/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "5.0.9",
           "Microsoft.EntityFrameworkCore.Design": "5.0.9",
@@ -320,10 +320,10 @@
           "WindowsBase": "4.0.0.0"
         },
         "runtime": {
-          "DOTNETAPI.dll": {}
+          "api.dll": {}
         },
         "compile": {
-          "DOTNETAPI.dll": {}
+          "api.dll": {}
         }
       },
       "Humanizer.Core/2.8.26": {
@@ -2234,7 +2234,7 @@
     }
   },
   "libraries": {
-    "DOTNETAPI/1.0.0": {
+    "api/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

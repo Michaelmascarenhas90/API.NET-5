@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UlspbjiokclCKEMsqRQalj5T+LObWAl0iHLEkPQm9eNf7N/QwKk1oifObxSFGNULa2yrfG30ciu6fVwSe8XI3Q==",
+  "dgSpecHash": "UdSbacCwqMJw8nCLk+rBsWinLWfekpGLzSW1khWYbPVQXK9x2k/c5fz1rQxNmqP6YuzVscSWwFtxE57ga4E2Ug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\michael.mascarenhas\\PRATICA\\DOTNETAPI\\DOTNETAPI.csproj",
+  "projectFilePath": "C:\\Users\\michael.mascarenhas\\PRATICA\\api\\api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\michael.mascarenhas\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\michael.mascarenhas\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
